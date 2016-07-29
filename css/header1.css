@@ -41,6 +41,11 @@
     color: #ffb300;
     font-size: 18px;
 }
+@media (min-width: 768px) {
+    #menu .navbar {
+        border-radius: 0px;
+    }
+}
 #menu {
     text-transform: uppercase;
 }
@@ -87,6 +92,7 @@
 
 #header3 .carousel-caption{
     background-color: #f9f5f3;
+    margin: 0;
 }
 #header3 .carousel-caption {
     position: absolute;
