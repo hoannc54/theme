@@ -1,5 +1,5 @@
 #header1 {
-    height: 125px;
+    min-height: 125px;
     background-color: #113366;
 }
 
@@ -70,4 +70,8 @@
 #lang select{
     background-color:#113366;
     border: none;
+}
+
+#header2 img {
+    width: 100%;
 }

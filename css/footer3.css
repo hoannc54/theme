@@ -1,0 +1,65 @@
+#footer1{
+    padding-top: 40px;
+    height: 200px;
+    color: #ffffff;
+    background-color: #ed1c24;
+}
+
+#footer1 h3{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#footer1 .input-box {
+    margin-right: 10px;
+    padding-left: 10px;
+    height: 40px;
+    width: 65%;
+    color: #000000;
+    background-color: #ffffff;
+}
+
+#footer1 .input-box input {
+    height: inherit;
+    width: 90%;
+    background: none;
+    border: none;
+}
+#footer1 form button {
+    background-color: #000000;
+    border: none;
+    height: 39px;
+    width: 100px;
+}
+#footer1 .follow {
+    padding-left: 60px;
+}
+#footer1 .follow a{
+    color: #ffffff;
+    font-size: 40px;
+    margin: 0 10px;
+}
+#footer2 {
+    color: #7d7d7d;
+    padding-top: 60px;
+    height: 220px;
+    background-color: #ffffff;
+}
+#footer2 .logo{
+
+}
+#footer2 .menu a{
+    text-transform: uppercase;
+    color: #7d7d7d;
+    text-decoration: none;
+}
+#footer2 .info p{
+    text-align: right;
+
+}
+#footer2 ul{
+    list-style-type: none;
+}
+#footer2 ul li {
+    padding: 5px 0;
+}
