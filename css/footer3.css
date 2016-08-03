@@ -1,6 +1,6 @@
 #footer1{
     padding-top: 40px;
-    height: 200px;
+    min-height: 200px;
     color: #ffffff;
     background-color: #ed1c24;
 }
@@ -10,29 +10,34 @@
     text-transform: uppercase;
 }
 
-#footer1 .input-box {
-    margin-right: 10px;
-    padding-left: 10px;
-    height: 40px;
-    width: 65%;
-    color: #000000;
-    background-color: #ffffff;
+/*#footer1 .input-box {*/
+    /*margin-right: 10px;*/
+    /*padding-left: 10px;*/
+    /*height: 40px;*/
+    /*width: 100%;*/
+    /*color: #000000;*/
+    /*background-color: #ffffff;*/
+/*}*/
+#footer1 .input-box button{
+    color: #ffffff;
 }
+#footer1 .input-box .input-group-addon{
+    background-color: #ffffff;
+    color: #000000;
 
-#footer1 .input-box input {
-    height: inherit;
-    width: 90%;
-    background: none;
-    border: none;
+}
+#footer1 input {
+   height: 38px;
 }
 #footer1 form button {
     background-color: #000000;
     border: none;
     height: 39px;
-    width: 100px;
+    width: 100%;
 }
 #footer1 .follow {
-    padding-left: 60px;
+    text-align: center;
+    padding: 0 20px;
 }
 #footer1 .follow a{
     color: #ffffff;
@@ -42,11 +47,12 @@
 #footer2 {
     color: #7d7d7d;
     padding-top: 60px;
-    height: 220px;
+    min-height: 220px;
     background-color: #ffffff;
 }
 #footer2 .logo{
-
+    text-align: center;
+    padding: 20px 5px;
 }
 #footer2 .menu a{
     text-transform: uppercase;
@@ -62,4 +68,21 @@
 }
 #footer2 ul li {
     padding: 5px 0;
+}
+
+@media (max-height: 768px) {
+    #footer1 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    #footer1 .follow a {
+        font-size: 20px;
+        margin: 0 5px;
+    }
+    #footer1 h3 {
+        font-size: 20px;
+    }
+    #footer2 {
+        padding-top: 20px;
+    }
 }

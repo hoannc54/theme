@@ -9,13 +9,14 @@
     color: #ffffff;
     font-weight: bold;
 }
+#header1 .left img{
+    width: 100%;
+}
 #header1 .right{
     text-align: right;
 }
 #header1 .right a{
-
     text-decoration: none;
-    margin: 0px 10px;
     color: #ffffff;
 }
 #header1 .right a:last-child{
@@ -28,10 +29,10 @@
 
     color: #cdd3de;
 }
-
+#header2 .left{
+    text-align: center;
+}
 #header2 {
-    padding: 40px 0px 40px 0px;
-    min-height: 200px;
     background-color: #ffffff;
 }
 
@@ -49,28 +50,7 @@
     color: #ffb300;
     font-size: 18px;
 }
-@media (min-width: 768px) {
-    #menu .navbar {
-        border-radius: 0px;
-    }
 
-}
-@media (max-width: 970px) {
-    #header2 .right {
-        display: none;
-    }
-}
-@media (max-width: 768px) {
-    #header2 .left {
-        display: none;
-    }
-    #header2 .left{
-        text-align: center;
-    }
-    #header1 .right{
-        text-align: left;
-    }
-}
 #menu {
     position: relative;
     text-transform: uppercase;
@@ -108,12 +88,15 @@
 }
 
 #header3{
-    height: 450px;
+    min-height: 450px;
 }
-
+#header3 .slider-inner ul li{
+    width: 100%;
+    height: 100%;
+}
 #header3 img{
     width: 100%;
-    height: 450px;
+    height: 100%;
 }
 
 #header3 .carousel-caption{
@@ -121,25 +104,24 @@
     margin: 0;
 }
 #header3 .carousel-caption {
-    position: absolute;
+    position: relative;
     right: 8%;
     bottom: 0px;
     left: 8%;
     z-index: 10;
     padding-top: 20px;
     padding-bottom: 20px;
-    padding-left: 75px;
+    padding-left: 70px;
+    padding-right: 70px;
     color: #fff;
     text-align: left;
     text-shadow: 0 1px 2px rgba(0, 0, 0, 0);
 }
 #header3 .carousel-caption p:nth-child(1){
-    font-size: 18px;
     font-weight: bold;
     color: #0e477f;
 }
 #header3 .carousel-caption p:nth-child(2){
-    font-size: 12px;
     text-align: left;
     color: #333333;
 }
@@ -176,4 +158,125 @@
 #header3 span a{
     text-decoration: none;
     color: #e18b1a;
+}
+@media (min-width: 319px ) {
+    #header1 .left span {
+        padding: 3px 0;
+        display: block;
+    }
+    #header1 .right span {
+        display: block;
+    }
+    #header1 .left {
+        font-size: 12px;
+    }
+    #header1 .right a {
+        font-size: 12px;
+        margin: 0px 5px;
+    }
+    #header2 .left {
+        display: block;
+    }
+    #header2 .left img{
+        width: 50px;
+    }
+    #header2 .center {
+        text-align: center;
+    }
+    #header2 .center p:first-child {
+        font-size: 14px;
+    }
+    #header2 .center p:last-child {
+        font-size: 12px;
+    }
+    #header2 {
+        min-height: 100px;
+        padding: 20px 0 0 0;
+    }
+    #header3 .carousel-caption p:nth-child(1){
+        font-size: 14px;
+    }
+    #header3 .carousel-caption p:nth-child(2){
+        font-size: 12px;
+    }
+    .navbar-header a{
+        color: #ffffff;
+        text-decoration: none;
+    }
+}
+@media (min-width: 480px ){
+    #header1 .left span {
+        display: inline;
+    }
+    #header1 .right span {
+        display: inline;
+    }
+    #header2 .center p:first-child{
+        font-size: 20px;
+    }
+    #header2 .center p:last-child{
+        font-size: 18px;
+    }
+
+}
+@media (max-width: 768px) {
+    #menu .navbar-nav i {
+        display: none;
+    }
+    #header3 .carousel-indicators {
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+    }
+    #header3 .carousel-caption {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+        left: 0;
+        right: 0;
+    }
+
+}
+@media (min-width: 768px) {
+    #header1 .left{
+        font-size: 14px;
+    }
+    #header1 .right a {
+        font-size: 14px;
+        margin: 0px 10px;
+    }
+    #menu .navbar {
+        border-radius: 0px;
+    }
+    #header2 {
+        min-height: 200px;
+        padding: 40px 0px 40px 0px;
+    }
+    #header3 .carousel-caption {
+        position: absolute;
+    }
+    #header2 .left img{
+        width: 100%;
+        height: 100%;
+    }
+    #header3 .carousel-caption p:nth-child(1){
+        font-size: 18px;
+    }
+    #header3 .carousel-caption p:nth-child(2){
+        font-size: 12px;
+    }
+}
+@media (max-width: 970px) {
+    #header2 .right {
+        display: none;
+    }
+
+}
+
+@media (max-width: 1170px) {
+    #menu .container {
+        width: 100%;
+        padding: 0;
+    }
 }
